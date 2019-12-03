@@ -5,7 +5,8 @@ pip install -U drf-yasg
 
 
 #PROJET
-#Settings.py
+
+1- Settings.py
 
     INSTALLED_APPS = [
        ...
@@ -13,7 +14,7 @@ pip install -U drf-yasg
        ...
     ]
 
-#views.py
+2 - urls.py
 
     ...
     from rest_framework import permissions
@@ -24,7 +25,7 @@ pip install -U drf-yasg
     ...
 
     schema_view = get_schema_view(
-       openapi.Info(
+    openapi.Info(
           title="Snippets API",
           default_version='v1',
           description="Test description",
@@ -42,3 +43,6 @@ pip install -U drf-yasg
        re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
        ...
     ]
+    
+    
+    source: https://drf-yasg.readthedocs.io/en/stable/readme.html
