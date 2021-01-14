@@ -46,4 +46,4 @@
     ]
     
     
-    source: https://drf-yasg.readthedocs.io/en/stable/readme.html
+  source: https://drf-yasg.readthedocs.io/en/stable/readme.html
