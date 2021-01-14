@@ -1,7 +1,8 @@
 # DJANGO_SWAGGER
 
 #install
-pip install -U drf-yasg
+
+    pip install -U drf-yasg
 
 
 #PROJET
